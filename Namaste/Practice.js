@@ -47,3 +47,49 @@
 // }
 
 // console.log("According to your scores", grade);
+
+// Question
+
+// For a given array with marks of students -> [85,97,44,37,76,60] 
+// find the average marks of the entire class.
+
+// let marks = [85,97,44,37,76,60]
+
+// let sum = 0;
+
+// for(let val of marks){
+//     sum+= val;
+// }
+// let avg = sum/marks.length
+// console.log(sum)
+
+
+// For a given array with prices of 5 items -> [250,645,300,900,50]
+// All the items have an offer to 10% OFF on them. change the array to store final price after applying offer.
+
+// let items = [250,645,300,900,50];
+
+// let i = 0;
+// for(let val of items){
+//   console.log(`value of at index${i} = ${val}`)
+//   let offer = val/10;
+//   items[i] = items[i] - offer;
+//   console.log(`value after offer = ${items[i]}`);
+//   i++;
+// }
+
+
+ // question 
+//  create an array to store companies -> "Bloomberg", "Microsoft","uber","Google","IBM","Netflix"
+// remove the first company from the array
+
+// remove the uber & add Ola its place
+// add amazon at the end
+
+// let companies = ['Bloomberg','Microsoft','Uber','Google','IBM','Netflix'];
+// companies.]shift()
+// console.log(companies)
+// companies.splice(1,2,"OLA");
+// console.log(companies)
+// companies.push("Amazon")
+// console.log(companies)

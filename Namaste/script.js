@@ -384,7 +384,7 @@ Exponention
 
     // print all element from the array 
 
-    let heroes = ['Spiderman','Batman','Hero','Hulk',"Antman","Ninjaman"]
+    // let heroes = ['Spiderman','Batman','Hero','Hulk',"Antman","Ninjaman"]
 //  for(let inx=0;inx<heroes.length;inx++){
 //     console.log(heroes[inx]);
 //  }
@@ -510,3 +510,120 @@ let fruits = ['Apple','Potato','Tomato','Chips','Chilli']
 // console.log(companies)
 // companies.push("Amazon")
 // console.log(companies)
+
+// Functions
+
+// Block of code that perfoms a specific task can be invoked whenever needed.
+
+
+// function functionName(){
+//     // do some work
+// }
+
+// then we will call the function
+// functionName()
+
+// function myName(){
+//     console.log("Welcome to javascript")
+// }
+
+// myName();
+
+// function myFunction(msg){
+//     // parent --> input
+//     console.log(msg);
+// }
+
+// myFunction("I love javascript") // argument
+
+// function ->  2numbers,sum
+
+// function sum(x,y){
+//     // console.log(x+y)
+//     s = x+y;
+//     return s;
+// }
+
+
+// let value =  sum(4,3)
+// console.log(value)
+
+// arrow function
+// compact   wat of writing a function 
+
+// sum function  
+
+// const sum = (a,b) =>{
+//     return a+b;
+// }
+
+// const value =sum(2,7)
+
+// console.log(value)
+
+// function countVowel(str){
+//     // Apna college, count =5;
+// let count =0;
+// for(const char of str){
+//     if(char ==='a' || char ==='e'|| char ==='i' || char==='o' || char ==='u'){
+//            count++;
+        
+// }
+
+// }
+// console.log(count)
+// }
+
+
+
+// const vowelcount = (str) =>{
+//     let count = 0;
+//     for(const char of str){
+//         if(char === "a" || char === "e" || char === "i" ||char === "o" ||char === "u" ){
+
+//             count++;
+//          }
+//     }
+//     return count++;
+// }
+
+
+// let arr = [1,2,3,4,5,6]
+
+// arr.forEach(function values(value){
+//     console.log(value);
+// }
+// )
+
+
+
+// let nums = [2,3,4,5,6]
+
+// nums.forEach((num)=>{
+//     console.log(num * num)
+// })
+
+
+// map 
+// create  a new array with the results of some operation. the value its callback returns are used to form new array 
+
+// let nums = [67,52,39];
+// nums.map((val)=>{
+//     console.log(val)
+// })
+
+
+// filter   
+
+// Create a new array of elements that give true for a conditon/fiter 
+
+
+// let arr = [1,2,3,4,5,6,7,8,9,10,12,14,16,11,134,]
+// let evenarr = arr.filter((val)=>{
+//     return val%2 ===0
+// })
+
+// console.log(evenarr)
+
+
+// DOM PART -1;
